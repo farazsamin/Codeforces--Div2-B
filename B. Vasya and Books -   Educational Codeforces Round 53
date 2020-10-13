@@ -2,7 +2,7 @@
 Problem Link 	: https://codeforces.com/contest/1073/problem/B
 
 
-Approach 		: Firstly, store all the index of given books. then remove all the books if stored indexed book value is greater than start value.else no need to remove.
+Approach 		: Firstly, store all the index of given books. then remove all the books(less than equal indexed book) if stored indexed book value is greater than start value.else no need to remove.
 
 */
 

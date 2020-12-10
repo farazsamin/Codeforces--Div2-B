@@ -1,0 +1,32 @@
+/*
+Problem Link 	: https://codeforces.com/problemset/problem/200/B
+
+
+Approach 		:  Find the fraction and add it to the sum value. Finalalize answer by dividing it by n and print the answer.
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int 
+ 
+ 
+int main()
+{
+  int n;
+  cin>>n;
+  float temp=0.0, sum=0.0;
+  int arr[n];
+  for(int i=0;i<n;i++) {
+    cin>>arr[i];
+    temp = (arr[i]/100.0);
+    sum+=temp; 
+  }
+//  cout<<sum<<endl;
+  float ans = sum/n;
+  cout<<ans*100<<endl;
+  
+  
+    	 
+}
+
+

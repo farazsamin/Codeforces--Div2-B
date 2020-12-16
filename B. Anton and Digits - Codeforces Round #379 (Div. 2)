@@ -1,0 +1,23 @@
+/*
+Link      :  https://codeforces.com/problemset/problem/734/B
+
+
+Approach  :
+
+
+ 
+*/
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main(){
+   int a,b,c,d;
+   cin>>a>>b>>c>>d;
+   int ans1= min(d,min(a,c));
+   a-=ans1;
+   int ans2= min(a,b);
+   cout<<256*ans1+32*ans2<<endl;
+
+
+}
